@@ -56,16 +56,12 @@ cout << "Enter Pair of edges:" ;
     	visited[i] = false;
 	}
 
+	double start = omp_get_wtime();
 	dfs(start_node);
+double end = omp_get_wtime();
 
-/*	for (int i = 0; i < n; i++) {
-    	if (visited[i]) {
-        	cout << i << " ";
-    	}
-	}*/
+cout << "\nExecution Time: " << (end - start) << " seconds\n";
+
 
 	return 0;
 }
-
-
-
