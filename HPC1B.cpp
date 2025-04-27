@@ -65,3 +65,27 @@ cout << "\nExecution Time: " << (end - start) << " seconds\n";
 
 	return 0;
 }
+
+/*
+gescoe@gescoe:~$ g++ -o gfg -fopenmp HPC1B.cpp 
+
+gescoe@gescoe:~$ ./gfg
+
+Enter No of Node,Edges,and start node:4
+
+4
+
+1
+
+Enter Pair of edges:1 2
+
+2 4
+
+3 4
+
+1 3
+
+1 2 4 3 
+
+
+*/
